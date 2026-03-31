@@ -21,7 +21,7 @@ I build practical systems across web backends, security applications, real-time 
 ## Technical Skills
 
 ### Languages
-- Java, Python, JavaScript, C++
+- Java, Python, JavaScript
 
 ### Frameworks and Libraries
 - Spring Boot, FastAPI, React
