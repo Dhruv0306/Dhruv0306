@@ -1,15 +1,13 @@
 # Dhruv Patel
 
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dhruv0306)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhruv-patel-759a69252/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Dhruv_p6/)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/dpatel6778)
+[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/dhruv.p6)
+
 Backend-focused developer with primary expertise in Java and Python, and working knowledge of React.
 I build practical systems across web backends, security applications, real-time communication, and AI/ML.
-
-## Contact
-
-- GitHub: [github.com/Dhruv0306](https://github.com/Dhruv0306)
-- LinkedIn: [linkedin.com/in/dhruv-patel-759a69252](https://www.linkedin.com/in/dhruv-patel-759a69252/)
-- LeetCode: [leetcode.com/u/Dhruv_p6](https://leetcode.com/u/Dhruv_p6/)
-- GeeksforGeeks: [geeksforgeeks.org/profile/dpatel6778](https://www.geeksforgeeks.org/profile/dpatel6778)
-- Codeforces: [codeforces.com/profile/dhruv.p6](https://codeforces.com/profile/dhruv.p6)
 
 ## Professional Summary
 
