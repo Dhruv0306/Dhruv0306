@@ -1,6 +1,5 @@
 # Dhruv Patel
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dhruv0306)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhruv-patel-759a69252/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Dhruv_p6/)
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/dpatel6778)
@@ -15,14 +14,19 @@ I build practical systems across web backends, security applications, real-time 
 - Secondary exposure: React
 - Focus areas: Backend engineering, secure systems, real-time applications, deep learning/computer vision
 - Build style: End-to-end projects with API design, integration, and deployment-ready architecture
+- Strong with AI-assisted development workflows for planning and documenting changes
 
 ## Technical Skills
 
 ### Languages
-- Java, Python, JavaScript
+[![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)](https://www.java.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ### Frameworks and Libraries
-- Spring Boot, FastAPI, React
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
 
 ### Core Areas
 - REST APIs, WebSockets, authentication and security, modular architecture
@@ -31,6 +35,7 @@ I build practical systems across web backends, security applications, real-time 
 
 ### Tools and Platforms
 - Git and GitHub, browser extension development, ESP32-based prototyping
+- AI tools: ChatGPT, Claude, GitHub Copilot (project planning and documentation)
 
 ## Selected Projects
 
