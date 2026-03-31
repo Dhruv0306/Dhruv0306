@@ -85,8 +85,19 @@ I build practical systems across web backends, security applications, real-time 
 
 ## Competitive Programming and Practice
 
-- Active problem solving across LeetCode, GeeksforGeeks, and Codeforces
-- Repository for DSA/problem-solving progress: [LeetCode Repo](https://github.com/Dhruv0306/LeetCode)
+<table>
+	<tr>
+		<td>
+			<img src="https://leetcard.jacoblin.cool/Dhruv_p6?theme=dark&font=Roboto%20Flex&ext=heatmap" alt="LeetCode Stats" />
+		</td>
+	</tr>
+</table>
+
+
+## Looking For Contributors
+
+- Open to contributors: [Music-through-Computer-Programming](https://github.com/Dhruv0306/Music-through-Computer-Programming)
+
 
 ## Current Focus
 
