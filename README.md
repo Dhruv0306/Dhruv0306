@@ -60,15 +60,6 @@ I build practical systems across web backends, security applications, real-time 
 - Implemented real-time scanning and quarantine workflows
 - Integrated Spring Boot backend services with a React-based interface
 
-### Modular Blockchain Framework (Core + Example)
-**Repositories:**
-- [modular-blockchain-core](https://github.com/Dhruv0306/modular-blockchain-core)
-- [modular-blockchain-example](https://github.com/Dhruv0306/modular-blockchain-example)
-
-- Designed modular Java interfaces for transactions, consensus, wallets, and networking
-- Built an example implementation demonstrating end-to-end blockchain flow
-- Structured code for extensibility and experimentation
-
 ### Real-Time Chat Application
 **Repository:** [Java-Chat-App](https://github.com/Dhruv0306/Java-Chat-App)
 
