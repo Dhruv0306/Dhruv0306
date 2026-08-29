@@ -17,38 +17,42 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate Github Readme Stats Cards
-        uses: vn7n24fzkq/github-readme-stats-action@v1.0.0
+      # Create the asset folder so the workflow doesn't fail on missing directories
+      - name: Create assets directory
+        run: mkdir -p profile-assets
+
+      # Card 1: Overview Stats
+      - name: Generate Github Readme Stats Card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          # Your Classic Personal Access Token saved in Repository Secrets
           token: ${{ secrets.PAT_TOKEN }}
-          
-          # Card 1: Overview Stats configuration
-          stats_username: "Dhruv0306"
-          stats_theme: "radical"
-          stats_show_icons: "true"
-          stats_hide_border: "true"
-          stats_count_private: "true"
-          stats_output: "profile-assets/stats.svg"
+          card: stats
+          options: username=Dhruv0306&theme=radical&show_icons=true&hide_border=true&count_private=true
+          path: profile-assets/stats.svg
 
-          # Card 2: Top Languages configuration
-          langs_username: "Dhruv0306"
-          langs_theme: "radical"
-          langs_layout: "compact"
-          langs_hide_border: "true"
-          langs_output: "profile-assets/top-langs.svg"
+      # Card 2: Top Languages
+      - name: Generate Top Languages Card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          card: top-langs
+          options: username=Dhruv0306&theme=radical&layout=compact&hide_border=true
+          path: profile-assets/top-langs.svg
 
-          # Card 3: Streak Stats configuration
-          streak_username: "Dhruv0306"
-          streak_theme: "radical"
-          streak_hide_border: "true"
-          streak_output: "profile-assets/streak.svg"
+      # Card 3: Streak Stats
+      - name: Generate Streak Stats Card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          card: streak
+          options: username=Dhruv0306&theme=radical&hide_border=true
+          path: profile-assets/streak.svg
 
+      # Commit and push changes back to your profile repo
       - name: Commit and Push Generated Cards
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add profile-assets/*.svg
-          # Only commit if changes actually exist to avoid empty commit errors
           git diff-index --quiet HEAD || git commit -m "Update profile stats cards [skip ci]"
           git push
