@@ -5,93 +5,50 @@
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/dpatel6778)
 [![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/dhruv.p6)
 
-Backend-focused developer with primary expertise in Java and Python, and working knowledge of React.
-I build practical systems across web backends, security applications, real-time communication, and AI/ML.
+I write backend systems in Java and Python, and reach for React when a project needs a front end. Most of what I build sits somewhere between security, real-time communication, and computer vision — a REST API, a WebSocket chat server, a YOLO pipeline that has to hold up against real images instead of clean test data.
 
-## Professional Summary
-
-- Primary stack: Java, Python
-- Secondary exposure: React
-- Focus areas: Backend engineering, secure systems, real-time applications, deep learning/computer vision
-- Build style: End-to-end projects with API design, integration, and deployment-ready architecture
-- Strong with AI-assisted development workflows for planning and documenting changes
-
-## Technical Skills
+## Technical skills
 
 ### Languages
-[![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+Java, Python, JavaScript
 
-### Frameworks and Libraries
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+### Frameworks
+Spring Boot, FastAPI, React
 
-### Core Areas
-- REST APIs, WebSockets, authentication and security, modular architecture
-- Deep learning and computer vision (YOLO, transformer-based approaches)
-- Data structures and algorithms practice
+### Core areas
+REST APIs, WebSockets, authentication, deep learning and computer vision (YOLO, transformer-based models), data structures and algorithms
 
-### Tools and Platforms
-- Git and GitHub, browser extension development, ESP32-based prototyping
-- AI tools: ChatGPT, Claude, GitHub Copilot (project planning and documentation)
+### Tools
+Git/GitHub, browser extension development, ESP32 prototyping, GitHub Actions for CI/CD
 
-## Selected Projects
+## Selected projects
 
-### Enterprise AI Brand Validation Platform
-**Repository:** [SymphonyProject1](https://github.com/Dhruv0306/SymphonyProject1)
+**[SymphonyProject1](https://github.com/Dhruv0306/SymphonyProject1)** — Logo detection and brand validation platform. A YOLO cascade behind a FastAPI backend, with a React frontend for running both real-time and batch image processing.
 
-- Built an enterprise-grade AI platform for logo detection and brand validation
-- Implemented a Python-based backend with YOLO models and integrated a React frontend
-- Supported real-time and batch image processing workflows
+**[private-blockchain](https://github.com/Dhruv0306/private-blockchain)** — Multi-module Spring Boot 4 application (`com.privatechain`). Migrated it through a Spring Boot 4 breaking change (`Jackson2ObjectMapperBuilderCustomizer` was removed, replaced with a plain `ObjectMapper` bean), patched high-severity CVEs in the Spring Framework dependencies via BOM version management, and fixed the GitHub Actions workflows for Javadoc generation and releases. Test coverage on `ChainExporter.java` is at 80%+ with nested test classes and reflection-based constructor guards.
 
-### Secure File Sharing Application
-**Repository:** [cloudshare-app](https://github.com/Dhruv0306/cloudshare-app)
+**[Antivirus](https://github.com/Dhruv0306/Antivirus)** — Full-stack antivirus system built on an X.800-inspired security architecture. Spring Boot backend, React dashboard, real-time scanning and quarantine, tested with JUnit 5 and Jest.
 
-- Developed a secure file sharing application using Spring Boot and modern frontend patterns
-- Implemented authentication, file upload/download flows, and REST API endpoints
-- Added logging and maintainable backend structure for production-style development
+**[cloudshare-app](https://github.com/Dhruv0306/cloudshare-app)** — Secure file sharing app. Spring Boot backend handling auth, upload/download flows, and REST endpoints, with logging built in from the start rather than bolted on.
 
-### Full-Stack Antivirus System
-**Repository:** [Antivirus](https://github.com/Dhruv0306/Antivirus)
+**[Java-Chat-App](https://github.com/Dhruv0306/Java-Chat-App)** — Real-time chat over WebSockets, with a Swing GUI, active-user tracking, and instant broadcast messaging.
 
-- Built a full-stack antivirus application based on X.800-inspired security architecture
-- Implemented real-time scanning and quarantine workflows
-- Integrated Spring Boot backend services with a React-based interface
+**Deep learning virtual staining** — [CNN version](https://github.com/Dhruv0306/deep-learning-project-virtual-staining) and a [Vision Transformer version](https://github.com/Dhruv0306/deep-learning-project-virtual-staining-using-transformers), comparing the two approaches on the same image transformation task.
 
-### Real-Time Chat Application
-**Repository:** [Java-Chat-App](https://github.com/Dhruv0306/Java-Chat-App)
+**LangChain LinkedIn Post Writer** — A multi-agent system where separate agents handle drafting, editing, and formatting a post rather than one model doing all three passes.
 
-- Developed a real-time chat system with Java, Spring Boot, and WebSocket communication
-- Implemented instant broadcast messaging and active-user interaction patterns
+**[viva-cli](https://github.com/Dhruv0306/viva-cli)** *(design stage)* — A CLI tool that runs timed, oral-exam-style Q&A sessions about a codebase, using a local LLM through Ollama and a Chroma vector store for RAG, and produces a grounded evaluation report at the end.
 
-### Deep Learning Virtual Staining Work
-**Repositories:**
-- [deep-learning-project-virtual-staining](https://github.com/Dhruv0306/deep-learning-project-virtual-staining)
-- [deep-learning-project-virtual-staining-using-transformers](https://github.com/Dhruv0306/deep-learning-project-virtual-staining-using-transformers)
+## Competitive programming
 
-- Worked on ML-based virtual staining pipelines in Python
-- Explored transformer-driven approaches for image transformation tasks
+[![LeetCode Stats](https://leetcard.jacoblin.cool/Dhruv_p6?theme=dark&font=Roboto%20Flex&ext=heatmap)](https://leetcode.com/u/Dhruv_p6/)
 
-## Competitive Programming and Practice
+Mostly Java: Nim-style game theory, O(n) prefix-sum decompositions for circular arrangement problems, digit DP for adjacent-digit-difference counting on ranges up to 10¹⁵, and a minimum-adjacent-swap problem solved with a Hall's theorem feasibility check plus Fenwick tree inversion counting.
 
-<table>
-	<tr>
-		<td>
-			<img src="https://leetcard.jacoblin.cool/Dhruv_p6?theme=dark&font=Roboto%20Flex&ext=heatmap" alt="LeetCode Stats" />
-		</td>
-	</tr>
-</table>
+## Right now
 
+Finishing the Spring Boot 4 migration on `private-blockchain` and designing `viva-cli`. I use Claude, ChatGPT, and Copilot for planning and documentation — not to skip writing the code myself.
 
-## Looking For Contributors
+## Open to contributors
 
-- Open to contributors: [Music-through-Computer-Programming](https://github.com/Dhruv0306/Music-through-Computer-Programming)
-
-
-## Current Focus
-
-- Advancing backend engineering depth in Java and Python
-- Building AI-enabled and security-conscious applications
-- Improving problem-solving consistency for contests and interviews
+[Music-through-Computer-Programming](https://github.com/Dhruv0306/Music-through-Computer-Programming) — a synthesizer, audio effect processor, and e-Sitar simulation built in JavaScript. Could use more hands.
