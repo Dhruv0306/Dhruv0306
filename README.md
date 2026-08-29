@@ -39,10 +39,10 @@ I write backend systems in Java and Python, and reach for React when a project n
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Dhruv0306&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruv0306&layout=compact&theme=radical&hide_border=true" width="35%" />
+<img src="./profile-assets/stats.svg" width="65%" />
+<img src="./profile-assets/top-langs.svg" width="45%" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Dhruv0306&theme=radical&hide_border=true" width="60%" />
+<img src="./profile-assets/streak.svg" width="60%" />
 
 </div>
 
