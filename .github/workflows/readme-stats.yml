@@ -39,14 +39,15 @@ jobs:
           options: username=Dhruv0306&theme=radical&layout=compact&hide_border=true
           path: profile-assets/top-langs.svg
 
-      # Card 3: Streak Stats
+      # Card 3: Streak Stats (Fixed using dedicated streak action)
       - name: Generate Streak Stats Card
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: denvercoder1/github-readme-streak-stats@v2
         with:
-          token: ${{ secrets.PAT_TOKEN }}
-          card: streak
-          options: username=Dhruv0306&theme=radical&hide_border=true
-          path: profile-assets/streak.svg
+          github_token: ${{ secrets.PAT_TOKEN }}
+          user: Dhruv0306
+          theme: radical
+          hide_border: true
+          output_path: profile-assets/streak.svg
 
       # Commit and push changes back to your profile repo
       - name: Commit and Push Generated Cards
