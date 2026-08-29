@@ -29,9 +29,21 @@ I write backend systems in Java and Python, and reach for React when a project n
 [![YOLO](https://img.shields.io/badge/YOLO-object%20detection-critical?style=flat-square)](https://github.com/Dhruv0306/SymphonyProject1)
 [![LangChain](https://img.shields.io/badge/LangChain-multi--agent-1C3C3C?style=flat-square)](https://github.com/Dhruv0306)
 
-**Tools**
+**Editors & IDEs**
+
+![VS Code](https://skillicons.dev/icons?i=vscode) ![IntelliJ IDEA](https://skillicons.dev/icons?i=idea)
+
+**AI-assisted workflow**
+
+[![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)](https://claude.ai)
+[![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=flat-square&logo=openai&logoColor=white)](https://chatgpt.com)
+[![Codex](https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white)](https://openai.com/codex)
+[![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)](https://github.com/features/copilot)
+
+**Other tools**
 
 ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github)
+[![Mermaid](https://img.shields.io/badge/Mermaid-FF3670?style=flat-square&logo=mermaid&logoColor=white)](https://mermaid.js.org)
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/features/actions)
 [![ESP32](https://img.shields.io/badge/ESP32-prototyping-E7352C?style=flat-square)](https://github.com/Dhruv0306)
 
@@ -46,36 +58,20 @@ I write backend systems in Java and Python, and reach for React when a project n
 
 </div>
 
-## Selected projects
+## Open for contributions
 
-| Project | What it does | Stack | Status |
-|---|---|---|---|
-| [SymphonyProject1](https://github.com/Dhruv0306/SymphonyProject1) | Logo detection and brand validation. YOLO cascade behind a FastAPI backend, React frontend for real-time and batch image processing | `Python` `FastAPI` `React` `YOLO` | Shipped |
-| [private-blockchain](https://github.com/Dhruv0306/private-blockchain) | Multi-module Spring Boot 4 blockchain app. Migrated a breaking dependency change, patched high-severity CVEs via BOM, fixed the CI Javadoc/release workflows | `Java` `Spring Boot 4` `Maven` | Active |
-| [Antivirus](https://github.com/Dhruv0306/Antivirus) | Full-stack antivirus on an X.800-inspired architecture — real-time scanning, quarantine, React dashboard | `Java` `Spring Boot` `React` | Shipped |
-| [cloudshare-app](https://github.com/Dhruv0306/cloudshare-app) | Secure file sharing — auth, upload/download flows, REST API, logging built in from the start | `Java` `Spring Boot` | Shipped |
-| [Java-Chat-App](https://github.com/Dhruv0306/Java-Chat-App) | Real-time chat over WebSockets with active-user tracking and broadcast messaging | `Java` `WebSocket` | Shipped |
-| [Virtual staining: CNN](https://github.com/Dhruv0306/deep-learning-project-virtual-staining) / [ViT](https://github.com/Dhruv0306/deep-learning-project-virtual-staining-using-transformers) | Comparing a CNN and a Vision Transformer on the same image-transformation task | `Python` `Deep learning` | Shipped |
-| LangChain LinkedIn Post Writer | Multi-agent system — separate agents handle drafting, editing, and formatting instead of one pass | `Python` `LangChain` | Shipped |
-| [viva-cli](https://github.com/Dhruv0306/viva-cli) | Local-LLM + RAG CLI that runs timed, oral-exam-style Q&A sessions on a codebase and produces a grounded evaluation report | `Python` `Ollama` `Chroma` | Design stage |
+| Project | What it does | Stack |
+|---|---|---|
+| [eventbus](https://github.com/Dhruv0306/eventbus) | Thread-safe in-memory event bus for Java 21. Async dispatch on virtual threads, Semaphore-based backpressure throttling, and a bounded dead-letter queue for failed handlers, behind a fluent builder API (Observer pattern) | `Java 21` `Virtual threads` `Maven` |
+| [throttle4j](https://github.com/Dhruv0306/throttle4j) | Multi-module Java rate-limiter library with three lock-free algorithms (Token Bucket, Fixed Window, Sliding Window Log), a Spring Boot auto-configuration starter, and a listener API for observability. Published to GitHub Packages with CI/CD via GitHub Actions | `Java` `Spring Boot` `Maven` |
+| [private-blockchain](https://github.com/Dhruv0306/private-blockchain) | Multi-module Spring Boot 4 blockchain app (`com.privatechain`). Migrated a breaking dependency change, patched high-severity CVEs via BOM, fixed the CI Javadoc/release workflows | `Java` `Spring Boot 4` `Maven` |
+| [Music-through-Computer-Programming](https://github.com/Dhruv0306/Music-through-Computer-Programming) | A synthesizer, audio effect processor, and e-Sitar simulation | `JavaScript` |
 
-## Competitive programming
-
-<div align="center">
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/Dhruv_p6?theme=dark&font=Roboto%20Flex&ext=heatmap)](https://leetcode.com/u/Dhruv_p6/)
-
-</div>
-
-Mostly Java: Nim-style game theory, O(n) prefix-sum decompositions for circular arrangement problems, digit DP for adjacent-digit-difference counting on ranges up to 10¹⁵, and a minimum-adjacent-swap problem solved with a Hall's theorem feasibility check plus Fenwick tree inversion counting.
+Issues and PRs welcome on any of these.
 
 ## Right now
 
 Finishing the Spring Boot 4 migration on `private-blockchain` and designing `viva-cli`. I use Claude, ChatGPT, and Copilot for planning and documentation — not to skip writing the code myself.
-
-## Open to contributors
-
-[Music-through-Computer-Programming](https://github.com/Dhruv0306/Music-through-Computer-Programming) — a synthesizer, audio effect processor, and e-Sitar simulation built in JavaScript. Could use more hands.
 
 <div align="center">
 
