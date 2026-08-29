@@ -36,7 +36,7 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN }}
           card: top-langs
-          options: username=Dhruv0306&theme=radical&layout=compact&hide_border=true
+          options: username=Dhruv0306&theme=radical&layout=compact&hide_border=true&exclude_repo=air-quality-monitoring-esp32
           path: profile-assets/top-langs.svg
 
       # Card 3: Streak Stats (Fixed version tag & arguments layout)
