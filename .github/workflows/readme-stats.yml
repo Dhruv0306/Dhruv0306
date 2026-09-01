@@ -2,8 +2,8 @@ name: Update README Cards
 
 on:
   schedule:
-    # Automatically updates every 12 hours
-    - cron: '0 */12 * * *'
+    # Automatically updates every 6 hours
+    - cron: '0 */6 * * *'
   # Allows you to manually run the workflow from the Actions tab
   workflow_dispatch:
 
