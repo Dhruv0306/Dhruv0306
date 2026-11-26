@@ -148,7 +148,7 @@
           data-testid="lang-progress"
           x="86.4"
           y="0"
-          width="81.34"
+          width="81.35"
           height="8"
           fill="#b07219"
         />
@@ -156,7 +156,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="167.74"
+          x="167.75"
           y="0"
           width="41.84"
           height="8"
@@ -166,7 +166,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="209.58"
+          x="209.59"
           y="0"
           width="17.87"
           height="8"
@@ -176,7 +176,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="227.45000000000002"
+          x="227.46"
           y="0"
           width="14.27"
           height="8"
@@ -186,7 +186,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="241.72000000000003"
+          x="241.73000000000002"
           y="0"
           width="18.27"
           height="8"
@@ -213,7 +213,7 @@
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Jupyter Notebook 16.74%
+        Jupyter Notebook 16.73%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
